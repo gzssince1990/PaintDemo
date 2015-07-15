@@ -9,9 +9,13 @@ import android.view.MenuItem;
 
 public class PaintActivity extends Activity {
 
+    MyView myView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(new MyView(this));
+
+        setContentView(R.layout.activity_paint);
+        myView = (MyView) findViewById(R.id.my_view);
     }
 }
