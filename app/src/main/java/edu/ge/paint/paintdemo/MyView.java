@@ -120,5 +120,9 @@ public class MyView extends View {
         return true;
     }
 
+    public void setPenColor(int color){
+        myPaint.setColor(color);
+    }
+
 
 }
