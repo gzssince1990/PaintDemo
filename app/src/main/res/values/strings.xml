@@ -4,4 +4,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_paint">PaintActivity</string>
+
+    <string name="settings_bg_color_confirm">Choose</string>
+    <string name="settings_default_color_confirm">Default</string>
+    <string name="settings_bg_color_dialog">Color</string>
+
 </resources>
